@@ -1,0 +1,17 @@
+marks=float(input("enter ur marks: "))
+if marks >100 or marks < 0:
+   print("invalid entry try again")
+   
+
+ 
+elif marks >=80:
+    print("ur have grade A:")
+elif marks >=70:
+    print("ur grade is B:")
+elif marks >=60:
+    print("ur grade is C:")
+elif marks >=50:
+    print("ur grade is D:")
+
+else:
+   print("ur grade is F")
